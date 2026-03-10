@@ -133,6 +133,8 @@ IMPROVEMENT REVIEW
 
 For memory curation or promotion decisions, read `references/memory-promotion.md`.
 
+For shared human/assistant lesson logging, read `references/shared-learnings.md` and use `.learnings/LEARNINGS.md`, `.learnings/ERRORS.md`, and `.learnings/FEATURE_REQUESTS.md` as the inbox.
+
 ## Shared Fallibility Rule
 
 Assume both Reds A and Danlin can make mistakes. Use memory and workflow upgrades to reduce avoidable repetition, not to assign blame. When logging a correction or lesson, preserve the useful takeaway and strip out unnecessary sting.
