@@ -171,6 +171,12 @@ When the work relates to Danlin's app business, prioritize preserving:
 - stack decisions that speed shipping
 - repeated engineering/debugging lessons
 
+Use these references as needed:
+
+- `references/app-idea-evaluation.md` for screening opportunities
+- `references/research-postmortem.md` for rejected or weakened ideas
+- `references/shipping-checklist.md` for moving from concept to build plan
+
 ## Success Test
 
 This skill is succeeding only if Reds A is measurably better at one or more of these:

@@ -19,5 +19,6 @@
 ## Current Direction
 
 - Build a strong workflow around app idea research, monetization thinking, App Store optimization, and fast product execution.
+- Next step: run market research across Google Play, Apple's App Store, and social platforms like X, Reddit, Instagram, and similar sources to identify the strongest app idea to pursue immediately.
 - Vet third-party skills carefully before installing them.
 - Treat suspicious or self-modifying skills with caution.
