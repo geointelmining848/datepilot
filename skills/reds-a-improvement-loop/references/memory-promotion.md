@@ -64,5 +64,10 @@ Before promoting, ask:
 3. Is the wording short, concrete, and non-dramatic?
 4. Does it belong in the chosen file more than anywhere else?
 5. Am I preserving signal rather than clutter?
+6. Is this better than leaving it in `.learnings/`?
 
 If two or more answers are "no," do not promote yet.
+
+## Anti-Bloat Rule
+
+If a candidate memory item cannot be expressed clearly in one or two short bullets, it is probably not ready for promotion.

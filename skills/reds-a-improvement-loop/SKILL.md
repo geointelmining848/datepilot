@@ -17,6 +17,8 @@ This skill exists to make Reds A more helpful to Danlin over time. It also exist
 - Do not silently change high-trust files in major ways.
 - If a proposed change would make future behavior less clear, do not make it.
 - Delete or avoid stale memory instead of hoarding it.
+- Prefer a few high-signal rules over many low-signal rules.
+- When in doubt, simplify rather than expand.
 
 ## Improvement Targets
 
@@ -86,6 +88,13 @@ Use this default threshold:
 - **new skill/checklist**: repeated multi-step pattern with clear reuse value
 - **daily memory only**: temporary context, raw notes, incomplete thoughts
 
+Use these minimum bars before promotion:
+
+- promote to `MEMORY.md` only if it is likely to matter across sessions
+- promote to `AGENTS.md` only if it has changed behavior more than once or clearly would have prevented repeated friction
+- promote to `TOOLS.md` only if it is machine/setup specific
+- extract a new skill/checklist only if the pattern has recurred at least twice and can be described concretely in under a page
+
 ### 4. Make bounded changes
 
 Safe auto-actions:
@@ -113,6 +122,17 @@ When reporting back, be concrete:
 
 Avoid vague claims like "I evolved" or "I am now improved."
 
+### 6. Prune aggressively
+
+If a rule, memory item, or draft skill is stale, redundant, or too abstract, do one of these:
+
+- leave it in daily memory only
+- keep it in `.learnings/` without promotion
+- shorten it
+- delete the draft
+
+Do not preserve process for process's sake.
+
 ## Default Output Format
 
 Use this structure when reviewing improvement opportunities:
@@ -134,6 +154,8 @@ IMPROVEMENT REVIEW
 For memory curation or promotion decisions, read `references/memory-promotion.md`.
 
 For shared human/assistant lesson logging, read `references/shared-learnings.md` and use `.learnings/LEARNINGS.md`, `.learnings/ERRORS.md`, and `.learnings/FEATURE_REQUESTS.md` as the inbox.
+
+For periodic distillation, read `references/weekly-review.md`.
 
 ## Shared Fallibility Rule
 
@@ -158,5 +180,13 @@ This skill is succeeding only if Reds A is measurably better at one or more of t
 - producing clearer plans
 - researching app ideas more consistently
 - shipping code with less thrash
+
+Warning signs that the skill is getting worse instead of better:
+
+- too many rules with overlapping meaning
+- memory entries that are vague or theatrical
+- constant promotion with little later reuse
+- long reviews that produce no behavior change
+- new skills/checklists being created faster than they are actually used
 
 If the skill starts producing abstraction sludge, stop and simplify.

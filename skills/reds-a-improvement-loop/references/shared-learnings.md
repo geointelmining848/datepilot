@@ -28,6 +28,7 @@ Prefer neutral wording:
 
 Promote only when the lesson is durable, short, and action-guiding. If it is just a temporary hiccup, leave it in `.learnings/` or daily memory.
 
+A good default is recurrence: if the same lesson has not shown up at least twice, be conservative about promotion unless the decision is clearly high-impact.
 ## Escalation Path
 
 - repeated lesson → `MEMORY.md`
