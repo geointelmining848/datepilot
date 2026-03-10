@@ -20,6 +20,7 @@ Examples:
 - an ongoing project or durable goal
 - a repeated lesson likely to matter across sessions
 - an important decision with future consequences
+- a shared human/assistant lesson that will reduce future confusion or repeated mistakes
 
 Examples:
 - "Danlin wants Reds A focused on profitable App Store app research and full-stack engineering"
@@ -52,6 +53,7 @@ Never store secret values themselves.
 - redundant with existing memory
 - too vague to change future behavior
 - likely to go stale quickly
+- framed mainly as blame instead of a reusable lesson
 
 ## Promotion Checklist
 

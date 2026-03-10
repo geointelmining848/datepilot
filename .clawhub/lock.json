@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "react-native": {
+      "version": "1.0.0",
+      "installedAt": 1773169869492
+    },
+    "sql-toolkit": {
+      "version": "1.0.0",
+      "installedAt": 1773170771641
+    },
+    "aso": {
+      "version": "1.0.0",
+      "installedAt": 1773171019041
+    },
+    "self-improvement": {
+      "version": "1.0.0",
+      "installedAt": 1773172279295
+    }
+  }
+}

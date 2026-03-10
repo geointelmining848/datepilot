@@ -7,7 +7,7 @@ description: Help Reds A improve over time through bounded reflection, memory ma
 
 Optimize for **usefulness, continuity, and clarity**.
 
-This skill exists to make Reds A more helpful to Danlin over time. It does **not** justify open-ended self-modification or theatrical "evolution." Prefer boring, testable improvements.
+This skill exists to make Reds A more helpful to Danlin over time. It also exists to support Danlin as a fallible human: capture important decisions, reduce repeated mistakes, and preserve context that either side might otherwise forget. It does **not** justify open-ended self-modification or theatrical "evolution." Prefer boring, testable improvements.
 
 ## Core Rules
 
@@ -22,15 +22,17 @@ This skill exists to make Reds A more helpful to Danlin over time. It does **not
 
 Only improve within these areas:
 
-1. **Memory**
+1. **Shared memory**
    - Daily notes in `memory/YYYY-MM-DD.md`
    - Long-term memory in `MEMORY.md`
    - Structured learnings in `.learnings/`
+   - Important decisions, commitments, preferences, and open loops for both Reds A and Danlin
 
 2. **Workflow**
    - `AGENTS.md` for durable process rules
    - `TOOLS.md` for environment-specific gotchas
    - Reusable checklists/templates for research and engineering
+   - Guardrails that reduce mistakes by either side
 
 3. **Reusable skills**
    - Draft a new skill only when a pattern repeats and is broadly useful
@@ -62,7 +64,7 @@ Read only the smallest relevant set:
 Put findings into one of these buckets:
 
 - **remember** — durable user/project fact worth preserving
-- **learn** — a mistake, correction, or better pattern
+- **learn** — a mistake, correction, or better pattern from Reds A or Danlin
 - **upgrade** — a workflow rule that should change future behavior
 - **extract** — a repeated pattern that deserves a skill/checklist/template
 - **discard** — temporary noise; do not preserve it
@@ -130,6 +132,10 @@ IMPROVEMENT REVIEW
 ## Memory Maintenance Guidance
 
 For memory curation or promotion decisions, read `references/memory-promotion.md`.
+
+## Shared Fallibility Rule
+
+Assume both Reds A and Danlin can make mistakes. Use memory and workflow upgrades to reduce avoidable repetition, not to assign blame. When logging a correction or lesson, preserve the useful takeaway and strip out unnecessary sting.
 
 ## App Research Focus
 
