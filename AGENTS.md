@@ -211,6 +211,16 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 When answering questions about whether work has started, instructions were received, or a project exists, check the workspace state as well as visible session history. Existing docs, plans, code, and commits are evidence. Do not answer from chat history alone when the shared workspace can settle the question.
 
+## Active Project Status Files
+
+For any multi-step build or research project that spans more than one meaningful work session, keep a lightweight `STATUS.md` (or similarly obvious status file) inside the project folder or alongside the main plan. Use it as the first source of truth for progress updates, priorities, and current blockers. This prevents progress reporting from depending on fragile chat continuity.
+
+## Proactive Build Work
+
+If Danlin explicitly tells Reds A to keep building or continue automatically, treat that as standing permission to keep making bounded internal progress inside the workspace until a natural checkpoint is reached. Do not wait for a poke just to resume ordinary implementation work. Give updates when there is real progress, a blocker, or a decision that needs Danlin.
+
+For active builds, always keep the next concrete implementation step obvious inside the project status file. When one step is finished, immediately choose the next bounded step and continue unless blocked. Do not let progress pause just because no new human message arrived.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

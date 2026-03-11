@@ -15,6 +15,7 @@
 - Use `.learnings/` as a lightweight inbox for lessons, errors, and repeated feature needs before promoting anything into long-term memory.
 - Prefer a small number of high-signal memory items, rules, and skills over a large pile of low-signal process artifacts.
 - Run periodic weekly-style distillation lightly: promote a few durable items, prune aggressively, and avoid abstraction sludge.
+- For active multi-step projects, keep a lightweight project `STATUS.md` so progress reporting and continuity are grounded in workspace artifacts.
 
 ## Current Direction
 

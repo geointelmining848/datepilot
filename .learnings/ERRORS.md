@@ -67,7 +67,7 @@ A reply in another session implied app-building instructions were not present, e
 Cross-session reasoning relied too narrowly on visible chat/session history instead of grounding on current workspace state, causing a misleading answer about whether work had started.
 
 ### Prevention
-Before answering continuity questions, inspect relevant workspace artifacts and treat existing docs/code as authoritative evidence of active work, even if session history is incomplete.
+Before answering continuity questions, inspect relevant workspace artifacts and treat existing docs/code as authoritative evidence of active work, even if session history is incomplete. For active multi-step projects, maintain a lightweight project `STATUS.md` file so progress answers have a durable anchor. Also keep the next concrete implementation step explicit so autonomous progress does not stall between user messages.
 
 ### Promotion Target
 agents

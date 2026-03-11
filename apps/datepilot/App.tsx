@@ -5,7 +5,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
 import { OnboardingScreen } from './src/screens/OnboardingScreen';
 import { HomeScreen } from './src/screens/HomeScreen';
-import { ToolPlaceholderScreen } from './src/screens/ToolPlaceholderScreen';
 import { RootStackParamList } from './src/navigation/types';
 import { colors } from './src/theme/tokens';
 import { PreferencesScreen } from './src/screens/PreferencesScreen';
@@ -13,6 +12,9 @@ import { ProfileDoctorScreen } from './src/screens/ProfileDoctorScreen';
 import { OpenerGeneratorScreen } from './src/screens/OpenerGeneratorScreen';
 import { ReplyCoachScreen } from './src/screens/ReplyCoachScreen';
 import { AskOutHelperScreen } from './src/screens/AskOutHelperScreen';
+import { PaywallScreen } from './src/screens/PaywallScreen';
+import { SettingsScreen } from './src/screens/SettingsScreen';
+import { DemoModeScreen } from './src/screens/DemoModeScreen';
 import { storage } from './src/lib/storage';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -65,14 +67,9 @@ export default function App() {
         <Stack.Screen name="ReplyCoach" component={ReplyCoachScreen} />
         <Stack.Screen name="AskOutHelper" component={AskOutHelperScreen} />
         <Stack.Screen name="Preferences" component={PreferencesScreen} />
-        <Stack.Screen
-          name="Paywall"
-          children={() => <ToolPlaceholderScreen title="Upgrade" subtitle="Next: free-tier limits and premium unlock shell." />}
-        />
-        <Stack.Screen
-          name="Settings"
-          children={() => <ToolPlaceholderScreen title="Settings" subtitle="Reserved for app settings and future support links." />}
-        />
+        <Stack.Screen name="Paywall" component={PaywallScreen} />
+        <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="DemoMode" component={DemoModeScreen} options={{ title: 'Demo Mode' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

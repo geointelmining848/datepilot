@@ -48,4 +48,7 @@ export const storage = {
   setProfile: (value: SavedProfile) => setJson(KEYS.profile, value),
   getUsage: () => getJson(KEYS.usage, defaultUsage),
   setUsage: (value: UsageState) => setJson(KEYS.usage, value),
+  resetAll: async () => {
+    await AsyncStorage.multiRemove([KEYS.preferences, KEYS.profile, KEYS.usage]);
+  },
 };

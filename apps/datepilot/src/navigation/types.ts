@@ -8,4 +8,5 @@ export type RootStackParamList = {
   Preferences: undefined;
   Paywall: undefined;
   Settings: undefined;
+  DemoMode: undefined;
 };
