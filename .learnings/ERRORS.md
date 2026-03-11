@@ -50,3 +50,24 @@ Treat rate limits as a provider constraint, retry later instead of assuming manu
 
 ### Promotion Target
 tools
+
+---
+
+## [ERR-20260310-002] cross-session-workspace-blindness
+
+**Logged:** 2026-03-11T00:45:00Z  
+**Source:** reds-a  
+**Area:** workflow  
+**Status:** pending  
+
+### Summary
+A reply in another session implied app-building instructions were not present, even though build artifacts already existed in the shared workspace.
+
+### Context
+Cross-session reasoning relied too narrowly on visible chat/session history instead of grounding on current workspace state, causing a misleading answer about whether work had started.
+
+### Prevention
+Before answering continuity questions, inspect relevant workspace artifacts and treat existing docs/code as authoritative evidence of active work, even if session history is incomplete.
+
+### Promotion Target
+agents
