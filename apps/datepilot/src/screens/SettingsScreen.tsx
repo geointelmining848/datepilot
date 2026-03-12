@@ -4,9 +4,9 @@ import { Screen } from '../components/Screen';
 import { SectionHeader } from '../components/SectionHeader';
 import { colors, spacing, typography } from '../theme/tokens';
 
-const supportEmail = 'support@datepilot.app';
-const privacyUrl = 'https://datepilot.app/privacy';
-const supportUrl = 'https://datepilot.app/support';
+const supportEmail = 'geointelmining@gmail.com';
+const privacyUrl = 'https://geointelmining848.github.io/datepilot/privacy.html';
+const supportUrl = 'https://geointelmining848.github.io/datepilot/support.html';
 
 function Row({ label, value, onPress }: { label: string; value: string; onPress?: () => void }) {
   return (

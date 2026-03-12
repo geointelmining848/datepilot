@@ -29,8 +29,8 @@ jobs:
 
       - name: Prepare publish directory
         run: |
-          mkdir -p public/datepilot
-          cp -R docs/site/datepilot/. public/datepilot/
+          mkdir -p public
+          cp -R docs/site/datepilot/. public/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
